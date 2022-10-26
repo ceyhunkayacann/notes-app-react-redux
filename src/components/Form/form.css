@@ -1,0 +1,133 @@
+#text-area {
+    resize:none;
+    width: 100%;
+    font-size : 18px;
+    background-color:#262626;
+    border: 0px;
+    color : #f5f5f5;
+    padding: 4px;
+}
+
+#text-area:focus {
+    outline : none;
+}
+
+.form {
+    padding : 8px;
+    margin : 8px;
+    min-width: 400px;
+    max-width: 400px;
+    height: auto;
+    border-radius : 14px;
+    -webkit-box-shadow: 0px 0px 16px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 16px 1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 16px 1px rgba(0,0,0,0.75);
+}
+
+#header-inp{
+    width: 100%;
+    font-size : 18px;
+    background-color:#262626;
+    border: 0px;
+    color : #f5f5f5;
+    border-left: 4px solid;
+    padding: 4px;
+    border-color: #16a34a;
+    padding: 8px 0px 8px 0px;
+}
+#header-inp:focus{
+  outline: none;
+}
+
+
+.buttons>button {
+    width:40px;
+    height:40px;
+    margin:0px 2px;
+    border-radius:8px;
+    border:0px;
+}
+
+.form-buttons {
+    display: flex;
+    margin : 8px;
+    justify-content: space-between;
+}
+
+.btn-green {
+    background: linear-gradient(#16a34a, #166534);
+}
+.btn-blue {
+    background: linear-gradient(#2563eb, #1e40af);
+}
+.btn-yellow {
+    background: linear-gradient(#ca8a04, #854d0e);
+}
+.btn-red {
+    background: linear-gradient(#dc2626, #991b1b);
+}
+
+#btn-add {
+    width:40px;
+    height:40px;
+    margin:0px 2px;
+    border-radius:8px;
+    border:1px solid;
+    background-color:#262626;
+    -webkit-box-shadow: 0px 0px 16px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 16px 1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 16px 1px rgba(0,0,0,0.75);
+    color : #f5f5f5;
+    border-color: #f5f5f5;
+}
+
+#search-input {
+    font-family: 'Poppins', sans-serif;
+    -webkit-appearance: none;
+    height:30px;
+    width: 60px;
+    margin: 0px;
+    border:0px;
+    border-radius: 12px;
+    padding:4px;
+    transition: width 1s;
+    font-size:14px;
+    background-color:#262626;
+    color: #f5f5f5;
+}
+
+#search-input:focus {
+    outline : none;
+    width: 380px;
+    -webkit-box-shadow: 0px 0px 23px 4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 23px 4px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 23px 4px rgba(0,0,0,0.75);
+   
+
+}
+
+#search-inp {
+    display: flex;
+    margin: 8px 0px;
+}
+
+#header-list {
+    list-style-type: none;
+    color: #f5f5f5;
+    padding : 0;
+    margin: 4px;
+}
+
+.list-items {
+   
+    border-radius: 12px;
+    display : flex;
+    align-items:center;
+    justify-content: space-between;
+    padding : 0 8px;
+    margin : 8px;
+}
+
+#list-header {
+    margin: 4px;
+}
